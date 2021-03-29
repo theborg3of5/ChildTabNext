@@ -16,7 +16,7 @@ function isDefaultNewTab(tab) {
 	if(!tab)
 		return false;
 	
-	return (tab.url == ChromeNewTabURL);
+	return (tab.url || tab.pendingUrl) === ChromeNewTabURL;
 }
 
 function moveIfDuplicatedTab(tab) {
