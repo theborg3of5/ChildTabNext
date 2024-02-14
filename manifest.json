@@ -1,8 +1,8 @@
 ﻿{
 	"name": "Child Tab Next",
-	"version": "2.1",
+	"version": "3.0",
 	"description": "Force new/duplicated tabs (but not those opened via links) to open next to their opener, not at the very end.",
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"permissions": [
 		"tabs"
 	],
@@ -12,7 +12,7 @@
 		"128": "icon128.png"
 	},
 	"background": {
-		"page": "background.html"
+		"service_worker": "service_worker.js"
 	},
 	"incognito": "split"
 }

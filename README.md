@@ -12,6 +12,8 @@ Icons by New Mooon ( http://code.google.com/u/newmooon/ )
   * Rewrote from scratch, should now be more reliable. Also added support for duplicating tabs.
 * 2.1 (3/29/21)
   * Fix extension not working for new tabs (by checking tab.pendingUrl)
+* 3.0 (2/13/24)
+  * Update to support manifest v3
 
 ---
 
